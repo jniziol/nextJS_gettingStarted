@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "bcryptjs": "^2.4.3",
     "next": "13.2.3",
+    "next-auth": "^4.20.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.11.0"
   }
 }
