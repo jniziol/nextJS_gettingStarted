@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <>
-      <h1>Home PPPPPage</h1>
+      <h1>Hofdfdfdfdme PPPPPage</h1>
       {session ? (
         <div>
           <button onClick={signOut}>Sign Out</button>
