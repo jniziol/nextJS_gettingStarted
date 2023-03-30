@@ -7,7 +7,7 @@ export default function SignIn() {
   const nameRef = useRef(null);
   const passwordConfirmationRef = useRef(null);
   const router = useRouter();
-
+  console.log(process.env.NODE_ENV);
   async function submitForm(event) {
     event.preventDefault();
 
