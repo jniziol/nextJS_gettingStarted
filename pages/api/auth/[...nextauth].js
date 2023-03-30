@@ -21,8 +21,6 @@ export default NextAuth({
           throw new Error("No user with that email");
         }
 
-        console.log(credentials);
-
         const isValid = await compare(credentials.password, user.password);
 
         if (!isValid) {
